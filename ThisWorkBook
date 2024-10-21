@@ -1,0 +1,6 @@
+Private Sub Workbook_Open()
+    Call M1_CommandBar.addInMenu
+    Call M3_CADfunction.ShortCutsCAD
+    Call M4_OrganiseCell.ShortCutOrganiseCell
+    Call M5_Table.ShortCutsTable
+End Sub
