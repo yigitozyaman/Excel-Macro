@@ -19,7 +19,7 @@ Dim dict As Object
 Dim details As Object
 Dim Key As Variant
 
-jsonFilePath = "JOSN Dosyası Yolu Girilecek"
+jsonFilePath = "JSON dosyası oluşturulacak ve Dosya Yolu Girilecek"
 json = ReadFile(jsonFilePath)
 
 Set dict = ParseJson(json)
