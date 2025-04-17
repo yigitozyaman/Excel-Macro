@@ -19,7 +19,7 @@ Dim dict As Object
 Dim details As Object
 Dim Key As Variant
 
-jsonFilePath = "C:\Users\yigit\Desktop\That's me 20241027\Softwares\Tester\Data Details.json"
+jsonFilePath = "JOSN Dosyası Yolu Girilecek"
 json = ReadFile(jsonFilePath)
 
 Set dict = ParseJson(json)
@@ -59,6 +59,7 @@ Function ReadFile(filePath As String) As String
     ReadFile = fileContent
 End Function
 
+'-------------------  GitHUB JSONConvertor Kütüphanesi ----------------------------------------
 
 Public Function ParseJson(ByVal JsonString As String) As Object
     Dim json_Index As Long
