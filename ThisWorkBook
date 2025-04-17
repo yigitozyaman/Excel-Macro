@@ -3,4 +3,5 @@ Private Sub Workbook_Open()
     Call M3_CADfunction.ShortCutsCAD
     Call M4_OrganiseCell.ShortCutOrganiseCell
     Call M5_Table.ShortCutsTable
+    Call M7_JSONdata.ShortCutsJSONData
 End Sub
